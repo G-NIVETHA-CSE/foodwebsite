@@ -44,7 +44,7 @@ const Page = ({ params }) => {
             <span style={styles.menuIcon}>🍽️</span>
             Recommended ({items.length})
           </h2>
-          <p style={styles.menuSubtitle}>Our chef's special picks for you</p>
+          <p style={styles.menuSubtitle}>Our chef special picks for you</p>
         </div>
 
         <div style={styles.menuGrid}>
