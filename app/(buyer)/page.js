@@ -18,8 +18,7 @@ const BuyerLogin = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     setIsLoading(true);
-    
-    // Simulate loading
+  
     setTimeout(() => {
       const user = mockUsers['buyer'];
 

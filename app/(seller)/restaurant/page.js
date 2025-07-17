@@ -160,7 +160,7 @@ const styles = {
     fontFamily: "'Inter', -apple-system, BlinkMacSystemFont, sans-serif",
   },
   content: {
-    paddingTop: '100px', // Account for fixed navbar
+    paddingTop: '100px',
     padding: '100px 2rem 2rem',
     maxWidth: '1400px',
     margin: '0 auto',
@@ -390,7 +390,6 @@ const styles = {
   },
 };
 
-// Add keyframes for animations
 const styleSheet = document.createElement('style');
 styleSheet.textContent = `
   @keyframes fadeInUp {
