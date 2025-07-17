@@ -184,36 +184,5 @@ const styles = {
     border: '1px solid #e2e8f0',
   },
 };
-const styleSheet = document.createElement('style');
-styleSheet.textContent = `
-  @keyframes slideUp {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  input:focus {
-    border-color: #667eea !important;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1) !important;
-  }
-  
-  button:hover:not(:disabled) {
-    transform: translateY(-2px) !important;
-    box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4) !important;
-  }
-  
-  button:active:not(:disabled) {
-    transform: translateY(0) !important;
-  }
-`;
-
-if (typeof document !== 'undefined') {
-  document.head.appendChild(styleSheet);
-}
 
 export default SellerLogin;
