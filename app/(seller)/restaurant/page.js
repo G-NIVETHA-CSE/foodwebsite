@@ -4,6 +4,8 @@ import restaurants from '@/data/restaurants';
 import Carousel from '@/components/Carousel';
 import RestaurantCard from '@/components/RestaurantCard';
 import Navbar from '@/components/navbarseller';
+import '@/app/globals.css';
+
 
 const RestaurantsPage = () => {
   const [displayedRestaurants, setDisplayedRestaurants] = useState(restaurants.slice(0, 8));
